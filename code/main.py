@@ -1,10 +1,10 @@
 from loaders.csv_loader import CSVLoader
+from context.index_builder import IndexBuilder
 
 loader = CSVLoader("../dataset")
 
 data = loader.load_everything()
 
-print("Datasets Loaded Successfully!\n")
+indexes = IndexBuilder(data).build()
 
-for name, df in data.items():
-    print(f"{name}: {len(df)} rows")
+print(indexes["users"]["u_001"])

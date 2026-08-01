@@ -1,0 +1,6 @@
+2026-08-01 19:30:51 | INFO     | __main__ | File logging enabled at C:\Users\Deepankar\OneDrive\Desktop\Hackathon\hackerrank-orchestrate-august26\code\logs\router.log
+2026-08-01 19:30:51 | INFO     | __main__ | Configuration loaded successfully
+2026-08-01 19:30:51 | INFO     | __main__ | Project root: C:\Users\Deepankar\OneDrive\Desktop\Hackathon\hackerrank-orchestrate-august26
+2026-08-01 19:30:51 | INFO     | __main__ | Dataset root: C:\Users\Deepankar\OneDrive\Desktop\Hackathon\hackerrank-orchestrate-august26\dataset
+2026-08-01 19:30:51 | INFO     | __main__ | Output file: C:\Users\Deepankar\OneDrive\Desktop\Hackathon\hackerrank-orchestrate-august26\dataset\output.csv
+2026-08-01 19:30:51 | INFO     | __main__ | Gemini model: gemini-2.0-flash
