@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,notify,payment,Transactional status or delivery update from verified business.,0.95,message_0102;message_0243
+msg_091,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.98,message_0238;message_0381
+msg_090,digest,unknown,"Unclassified message details, defaulting based on context type.",0.8,message_0338;message_0339
+msg_048,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.98,message_0151;message_0237
+msg_040,mute,greeting,Message flagged as spam or chain message (high forward count or spam vocabulary).,0.95,message_0135;message_0136
+msg_075,notify,business_update,Transactional status or delivery update from verified business.,0.95,message_0205;message_0206
+msg_005,digest,promotion,"Unclassified message details, defaulting based on context type.",0.8,message_0065;message_0066
+msg_104,mute,spam,Muted due to prior reports or extremely low sender trust.,0.95,message_0232;message_0383
+msg_069,mute,greeting,Message flagged as spam or chain message (high forward count or spam vocabulary).,0.95,message_0177;message_0193
+msg_107,notify,urgent,Urgent personal message from trusted contact.,0.89,message_0056;message_0235
+msg_070,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0195;message_0213
+msg_003,notify,business_update,Transactional status or delivery update from verified business.,0.95,message_0031;message_0400
+msg_099,notify,urgent,Urgent personal message from trusted contact.,0.94,message_0055;message_0249
+msg_008,digest,business_update,"Unclassified message details, defaulting based on context type.",0.8,message_0072;message_0296
+msg_092,mute,promotion,Promotional message muted to prevent notification fatigue.,0.85,message_0346;message_0385
+msg_060,digest,promotion,"Unclassified message details, defaulting based on context type.",0.72,message_0176;message_0284
+msg_004,notify,event,Transactional status or delivery update from verified business.,0.95,message_0064;message_0245
+msg_030,mute,promotion,Message suppressed because the containing group is muted by the user.,1.0,message_0115;message_0335
+msg_045,notify,promotion,"Unclassified message details, defaulting based on context type.",0.85,message_0145;message_0146
+msg_052,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0207;message_0208
+msg_009,mute,personal,Message suppressed because the containing group is muted by the user.,0.95,message_0032;message_0074
+msg_071,digest,personal,"Unclassified message details, defaulting based on context type.",0.8,message_0197;message_0198
+msg_016,digest,urgent,"Unclassified message details, defaulting based on context type.",0.85,message_0024;message_0201
+msg_065,mute,promotion,Promotional message muted to prevent notification fatigue.,0.85,message_0185;message_0261
+msg_038,mute,forward,Message flagged as spam or chain message (high forward count or spam vocabulary).,0.95,message_0131;message_0132
+msg_086,digest,business_update,"Unclassified message details, defaulting based on context type.",0.72,message_0144;message_0222
+msg_014,mute,promotion,Promotional message muted because the user has opted out.,0.97,message_0084;message_0258
+msg_094,mute,promotion,Promotional message muted to prevent notification fatigue.,0.85,message_0356;message_0357
+msg_029,digest,forward,"Unclassified message details, defaulting based on context type.",0.8,message_0095;message_0332
+msg_105,mute,spam,Muted due to prior reports or extremely low sender trust.,0.95,message_0233;message_0373
+msg_002,notify,payment,Direct mention in group chat from a trusted contact.,0.95,message_0169;message_0266
+msg_010,digest,business_update,"Unclassified message details, defaulting based on context type.",0.8,message_0075;message_0242
+msg_078,mute,forward,Message suppressed because the containing group is muted by the user.,1.0,message_0211;message_0212
+msg_013,digest,promotion,"Unclassified message details, defaulting based on context type.",0.85,message_0081;message_0082
+msg_018,digest,forward,"Unclassified message details, defaulting based on context type.",0.85,message_0026;message_0092
+msg_044,digest,urgent,"Unclassified message details, defaulting based on context type.",0.85,message_0143;message_0144
+msg_032,digest,personal,"Unclassified message details, defaulting based on context type.",0.8,message_0160;message_0285
+msg_106,notify,personal,Personal message from trusted contact.,0.85,message_0234;message_0376
+msg_006,digest,promotion,"Unclassified message details, defaulting based on context type.",0.72,message_0044;message_0271
+msg_109,digest,payment,"Unclassified message details, defaulting based on context type.",0.85,message_0151;message_0237
+msg_108,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0093;message_0094
+msg_019,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0094;message_0236
+msg_088,mute,urgent,Message suppressed because the containing group is muted by the user.,1.0,message_0025;message_0335
+msg_056,notify,event,Direct mention in group chat from a trusted contact.,0.78,message_0028;message_0168
+msg_027,digest,promotion,Promotional offer from active business routed to digest.,0.85,message_0110;message_0272
+msg_050,mute,spam,Muted due to prior reports or extremely low sender trust.,0.95,message_0156;message_0279
+msg_083,notify,urgent,Urgent co-worker update in active work group.,0.88,message_0219
+msg_063,digest,payment,"Unclassified message details, defaulting based on context type.",0.85,message_0181;message_0365
+msg_033,digest,greeting,Low-priority greeting from trusted contact routed to digest.,0.85,message_0121;message_0122
+msg_061,mute,greeting,Message suppressed because the containing group is muted by the user.,1.0,message_0177;message_0193
+msg_020,digest,urgent,"Unclassified message details, defaulting based on context type.",0.8,message_0095;message_0096
+msg_017,mute,payment,Message suppressed because the containing group is muted by the user.,1.0,message_0089;message_0090
+msg_058,mute,forward,Message suppressed because the containing group is muted by the user.,1.0,message_0040;message_0241
+msg_026,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0032;message_0107
+msg_047,digest,personal,"Unclassified message details, defaulting based on context type.",0.85,message_0151;message_0152
+msg_046,notify,urgent,Urgent family group message.,0.75,message_0147;message_0148
+msg_042,notify,urgent,"Unclassified message details, defaulting based on context type.",0.85,message_0028;message_0140
+msg_079,digest,urgent,"Unclassified message details, defaulting based on context type.",0.8,message_0195;message_0213
+msg_098,notify,urgent,Urgent personal message from trusted contact.,0.94,message_0226;message_0359
+msg_037,notify,personal,"Unclassified message details, defaulting based on context type.",0.85,message_0001;message_0271
+msg_007,digest,personal,"Unclassified message details, defaulting based on context type.",0.8,message_0236;message_0277
+msg_085,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0221;message_0265
+msg_001,notify,urgent,"Unclassified message details, defaulting based on context type.",0.85,message_0240;message_0241
+msg_021,notify,payment,"Unclassified message details, defaulting based on context type.",0.85,message_0068;message_0098
+msg_028,mute,promotion,Promotional message muted because the user has opted out.,0.97,message_0111;message_0112
+msg_012,mute,forward,Message flagged as spam or chain message (high forward count or spam vocabulary).,0.95,message_0079;message_0247
+msg_064,digest,payment,"Unclassified message details, defaulting based on context type.",0.85,message_0183;message_0201
+msg_103,notify,urgent,Urgent personal message from trusted contact.,0.94,message_0231;message_0382
+msg_031,notify,urgent,Urgent co-worker update in active work group.,0.93,message_0143;message_0249
+msg_057,notify,urgent,Direct mention in group chat from a trusted contact.,0.95,message_0169;message_0266
+msg_087,mute,urgent,Message suppressed because the containing group is muted by the user.,1.0,message_0203;message_0204
+msg_067,digest,promotion,"Unclassified message details, defaulting based on context type.",0.72,message_0098;message_0271
+msg_039,notify,promotion,Direct mention in group chat from a trusted contact.,0.95,message_0365;message_0403
+msg_082,notify,urgent,Urgent co-worker update in active work group.,0.93,message_0322;message_0397
+msg_066,mute,promotion,Promotional message muted because the user has opted out.,0.97,message_0187;message_0188
+msg_049,mute,promotion,Promotional message muted to prevent notification fatigue.,0.77,message_0154;message_0291
+msg_015,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0023;message_0045
+msg_051,mute,promotion,Promotional message muted because the user has opted out.,0.97,message_0157;message_0257
+msg_097,digest,personal,Personal message from trusted contact. Routed to digest due to low urgency.,0.72,message_0226;message_0359
+msg_089,digest,promotion,"Unclassified message details, defaulting based on context type.",0.8,message_0301;message_0396
+msg_053,digest,forward,"Unclassified message details, defaulting based on context type.",0.8,message_0253;message_0411
+msg_059,digest,promotion,"Unclassified message details, defaulting based on context type.",0.8,message_0173;message_0174
+msg_024,mute,promotion,Promotional message muted because the user has opted out.,0.97,message_0157;message_0257
+msg_072,digest,urgent,"Unclassified message details, defaulting based on context type.",0.8,message_0085;message_0199
+msg_036,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0127;message_0283
+msg_076,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.95,message_0207;message_0208
+msg_055,notify,urgent,Urgent family group message.,0.92,message_0165;message_0166
+msg_102,notify,urgent,Urgent personal message from trusted contact.,0.94,message_0059;message_0169
+msg_080,digest,personal,"Unclassified message details, defaulting based on context type.",0.72,message_0216;message_0271
+msg_093,digest,payment,Transactional status or delivery update from verified business. Batched during quiet hours.,0.9,message_0347;message_0348
+msg_034,mute,greeting,Message flagged as spam or chain message (high forward count or spam vocabulary).,0.95,message_0013;message_0171
+msg_035,notify,business_update,Transactional status or delivery update from verified business.,0.9,message_0127;message_0283
+msg_101,digest,personal,Personal message from trusted contact. Batched during quiet hours.,0.85,message_0268;message_0370
+msg_041,digest,event,"Unclassified message details, defaulting based on context type.",0.8,message_0028;message_0138
+msg_011,mute,greeting,Message flagged as spam or chain message (high forward count or spam vocabulary).,0.95,message_0123;message_0171
+msg_110,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.98,message_0238;message_0381
+msg_095,mute,scam,Detected high risk of scam or phishing (domain mismatch or security code solicitations).,0.98,message_0183;message_0201
+msg_074,mute,forward,Message suppressed because the containing group is muted by the user.,1.0,message_0203;message_0204
+msg_073,digest,forward,"Unclassified message details, defaulting based on context type.",0.85,message_0183;message_0201
+msg_054,digest,promotion,"Unclassified message details, defaulting based on context type.",0.85,message_0163;message_0389
+msg_068,digest,personal,"Unclassified message details, defaulting based on context type.",0.8,message_0191;message_0192
+msg_100,notify,urgent,Urgent personal message from trusted contact.,0.94,message_0228;message_0362
+msg_062,digest,forward,"Unclassified message details, defaulting based on context type.",0.72,message_0043;message_0271
+msg_096,digest,unknown,"Unclassified message details, defaulting based on context type.",0.8,message_0353;message_0354
+msg_043,notify,forward,"Unclassified message details, defaulting based on context type.",0.85,message_0030;message_0271
+msg_077,digest,event,"Unclassified message details, defaulting based on context type.",0.72,message_0051;message_0403
+msg_081,notify,personal,"Unclassified message details, defaulting based on context type.",0.85,message_0217;message_0361
+msg_025,notify,business_update,Transactional status or delivery update from verified business.,0.95,message_0004;message_0239
+msg_084,notify,business_update,Transactional status or delivery update from verified business.,0.78,message_0220;message_0357
+msg_022,digest,payment,"Unclassified message details, defaulting based on context type.",0.85,message_0099;message_0151
