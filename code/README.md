@@ -47,40 +47,6 @@ The project combines deterministic business rules with AI-assisted reasoning to 
 
 ---
 
-# System Architecture
-
-```text
-                    Incoming Message
-                           │
-                           ▼
-                  CSV Dataset Loader
-                           │
-                           ▼
-                    Index Builder
-                           │
-                           ▼
-                  Context Builder
-                           │
-                           ▼
-                  Feature Extraction
-                           │
-                           ▼
-              Deterministic Rule Engine
-                           │
-                           ▼
-              Gemini Decision Router
-                     (when required)
-                           │
-                           ▼
-             Confidence Calibration
-                           │
-                           ▼
-                   Output Generation
-                           │
-                           ▼
-                     dataset/output.csv
-```
-
 ## 📊 Dataset Processing Pipeline
 
 <p align="center">
