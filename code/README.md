@@ -191,6 +191,28 @@ The notification decision is influenced by multiple independent signals, includi
 
 ## Running the Project
 
+---
+
+# 📈 Evaluation
+
+The project includes a built-in evaluation pipeline to validate the generated predictions against the provided sample dataset.
+
+The evaluation module verifies:
+
+- ✅ Notification routing accuracy (`notify`, `digest`, `mute`)
+- ✅ Message type classification
+- ✅ Confidence score calibration
+- ✅ Output schema validation
+- ✅ Prediction completeness
+
+Run the evaluation after generating predictions:
+
+```bash
+python evaluation/evaluator.py
+```
+
+The evaluation workflow helps ensure that the generated `output.csv` follows the expected schema and produces consistent routing decisions before submission.
+
 ## Clone the repository
 
 ```bash
@@ -241,7 +263,15 @@ The generated CSV contains one prediction for every input message.
 | evidence_message_ids | Supporting historical messages |
 
 ---
+### Example Output
 
+```csv
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,notify,payment,"Transactional status or delivery update from verified business.",0.95,message_0102;message_0243
+msg_091,mute,scam,"Detected high risk of scam or phishing (domain mismatch or security code solicitations).",0.98,message_0238;message_0381
+msg_090,digest,unknown,"Unclassified message details, defaulting based on context type.",0.80,message_0338;message_0339
+```
+--- 
 ## Engineering Highlights
 
 - Modular architecture
