@@ -84,7 +84,7 @@ The project combines deterministic business rules with AI-assisted reasoning to 
 ## 📊 Dataset Processing Pipeline
 
 <p align="center">
-  <img src="assets/SV Dataset Processing Pipeline - visual selection.png"
+  <img src="assets/CSV Dataset Processing Pipeline - visual selection.png"
        alt="SV Dataset Processing Pipeline"
        width="100%">
 </p>
