@@ -181,6 +181,14 @@ The notification decision is influenced by multiple independent signals, includi
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
+--- 
+## 🛠️ Development Tools
+
+![Cursor](https://img.shields.io/badge/Cursor-AI-000000?style=for-the-badge)
+![Antigravity](https://img.shields.io/badge/Antigravity-AI-6A5ACD?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
 ---
 
 # Running the Project
