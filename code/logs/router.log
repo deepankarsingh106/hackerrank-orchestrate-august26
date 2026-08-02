@@ -85,3 +85,24 @@
 2026-08-02 11:11:09 | INFO     | config | Output file: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
 2026-08-02 11:11:09 | INFO     | config | Gemini model: gemini-2.0-flash
 2026-08-02 11:11:10 | INFO     | output.output_writer | Successfully validated and wrote 110 prediction rows to C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
+2026-08-02 13:05:21 | INFO     | config | File logging enabled at C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\code\logs\router.log
+2026-08-02 13:05:21 | INFO     | config | Configuration loaded successfully
+2026-08-02 13:05:21 | INFO     | config | Project root: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26
+2026-08-02 13:05:21 | INFO     | config | Dataset root: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset
+2026-08-02 13:05:21 | INFO     | config | Output file: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
+2026-08-02 13:05:21 | INFO     | config | Gemini model: gemini-2.0-flash
+2026-08-02 13:05:22 | INFO     | output.output_writer | Successfully validated and wrote 110 prediction rows to C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
+2026-08-02 13:07:47 | INFO     | config | File logging enabled at C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\code\logs\router.log
+2026-08-02 13:07:47 | INFO     | config | Configuration loaded successfully
+2026-08-02 13:07:47 | INFO     | config | Project root: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26
+2026-08-02 13:07:47 | INFO     | config | Dataset root: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset
+2026-08-02 13:07:47 | INFO     | config | Output file: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
+2026-08-02 13:07:47 | INFO     | config | Gemini model: gemini-2.0-flash
+2026-08-02 13:07:48 | INFO     | output.output_writer | Successfully validated and wrote 110 prediction rows to C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
+2026-08-02 13:07:59 | INFO     | config | File logging enabled at C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\code\logs\router.log
+2026-08-02 13:07:59 | INFO     | config | Configuration loaded successfully
+2026-08-02 13:07:59 | INFO     | config | Project root: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26
+2026-08-02 13:07:59 | INFO     | config | Dataset root: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset
+2026-08-02 13:07:59 | INFO     | config | Output file: C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
+2026-08-02 13:07:59 | INFO     | config | Gemini model: gemini-2.0-flash
+2026-08-02 13:07:59 | INFO     | output.output_writer | Successfully validated and wrote 110 prediction rows to C:\Users\Deepankar\Downloads\hackerrank-orchestrate-august26\dataset\output.csv
