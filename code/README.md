@@ -57,7 +57,7 @@ The project combines deterministic business rules with AI-assisted reasoning to 
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 code
@@ -101,7 +101,7 @@ code
 
 ---
 
-# Processing Pipeline
+## Processing Pipeline
 
 Every incoming message passes through the following stages:
 
@@ -118,7 +118,7 @@ Every incoming message passes through the following stages:
 
 ---
 
-# Datasets Used
+## Datasets Used
 
 The routing engine combines information from multiple structured datasets:
 
@@ -138,7 +138,7 @@ These datasets enable personalized routing decisions based on historical engagem
 
 ---
 
-# Core Decision Factors
+## Core Decision Factors
 
 The notification decision is influenced by multiple independent signals, including:
 
@@ -169,11 +169,9 @@ The notification decision is influenced by multiple independent signals, includi
 | Architecture | Modular Rule-Based Pipeline |
 
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -191,7 +189,7 @@ The notification decision is influenced by multiple independent signals, includi
 
 ---
 
-# Running the Project
+## Running the Project
 
 ## Clone the repository
 
@@ -228,7 +226,7 @@ dataset/output.csv
 
 ---
 
-# Output Format
+## Output Format
 
 The generated CSV contains one prediction for every input message.
 
@@ -243,7 +241,7 @@ The generated CSV contains one prediction for every input message.
 
 ---
 
-# Engineering Highlights
+## Engineering Highlights
 
 - Modular architecture
 - Explainable decision pipeline
@@ -256,7 +254,7 @@ The generated CSV contains one prediction for every input message.
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 - Transformer-based message classification
 - Vector search for semantic retrieval
@@ -271,7 +269,7 @@ The generated CSV contains one prediction for every input message.
 
 ---
 
-# Author
+## Author
 
 **Deepankar Singh**
 
@@ -279,6 +277,6 @@ The generated CSV contains one prediction for every input message.
 
 ---
 
-# Acknowledgements
+## Acknowledgements
 
 Developed as part of the **HackerRank Orchestrate Hackathon 2026**, focused on building an intelligent, explainable, and scalable notification routing system.
