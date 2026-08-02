@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Hackathon](https://img.shields.io/badge/HackerRank-Orchestrate-green)
+![License](https://img.shields.io/badge/License-MIT-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+
 # AI-Powered WhatsApp Message Notification Router
 
 > Intelligent notification prioritization system built for the HackerRank Orchestrate Hackathon 2026.
@@ -273,10 +279,7 @@ The generated CSV contains one prediction for every input message.
 # Author
 
 **Deepankar Singh**
-
-B.Tech Computer Science & Engineering
-
-Malaviya National Institute of Technology (MNIT), Jaipur
+Pre-Final Year CSE Student at MNIT, Jaipur
 
 ---
 
