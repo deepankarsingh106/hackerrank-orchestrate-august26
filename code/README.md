@@ -175,7 +175,7 @@ The notification decision is influenced by multiple independent signals, includi
 ## Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/hackerrank-orchestrate-august26.git
+git clone https://github.com/deepankarsingh106/hackerrank-orchestrate-august26.git
 cd hackerrank-orchestrate-august26
 ```
 
