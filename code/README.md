@@ -261,7 +261,3 @@ The generated CSV contains one prediction for every input message.
 # Acknowledgements
 
 Developed as part of the **HackerRank Orchestrate Hackathon 2026**, focused on building an intelligent, explainable, and scalable notification routing system.
-
-
-
-                  KEEP LEARNING KEEP SHINING
