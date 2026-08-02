@@ -202,6 +202,7 @@ cd hackerrank-orchestrate-august26
 
 ```bash
 pip install -r requirements.txt
+python code/main.py
 ```
 
 ## Configure environment
