@@ -279,7 +279,8 @@ The generated CSV contains one prediction for every input message.
 # Author
 
 **Deepankar Singh**
-Pre-Final Year CSE Student at MNIT, Jaipur
+
+  - Pre-Final Year CSE Student at MNIT, Jaipur
 
 ---
 
