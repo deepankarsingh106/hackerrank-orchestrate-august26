@@ -1,12 +1,12 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Hackathon](https://img.shields.io/badge/HackerRank-Orchestrate-green)
-![License](https://img.shields.io/badge/License-MIT-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 
 # AI-Powered WhatsApp Message Notification Router
 
 > Intelligent notification prioritization system built for the HackerRank Orchestrate Hackathon 2026.
+A hybrid AI + rule-based routing system that intelligently prioritizes WhatsApp notifications by analyzing text, images, voice notes, and historical user context.
 
 ## Overview
 
@@ -22,7 +22,7 @@ For every incoming message, the router predicts:
 - **Confidence Score**
 - **Supporting Evidence Message IDs**
 
-The project combines deterministic business rules with AI-assisted reasoning to create explainable and personalized notification decisions.
+The project combines deterministic business rules with optional Gemini-powered reasoning for ambiguous cases, enabling explainable and personalized notification decisions.
 
 ---
 
@@ -191,26 +191,6 @@ The notification decision is influenced by multiple independent signals, includi
 
 ## Running the Project
 
-### 📈 Evaluation
-
-The project includes a built-in evaluation pipeline to validate the generated predictions against the provided sample dataset.
-
-The evaluation module verifies:
-
-- ✅ Notification routing accuracy (`notify`, `digest`, `mute`)
-- ✅ Message type classification
-- ✅ Confidence score calibration
-- ✅ Output schema validation
-- ✅ Prediction completeness
-
-Run the evaluation after generating predictions:
-
-```bash
-python evaluation/evaluator.py
-```
-
-The evaluation workflow helps ensure that the generated `output.csv` follows the expected schema and produces consistent routing decisions before submission.
-
 ## Clone the repository
 
 ```bash
@@ -246,6 +226,27 @@ dataset/output.csv
 ```
 
 ---
+### 📈 Evaluation
+
+The project includes a built-in evaluation pipeline to validate the generated predictions against the provided sample dataset.
+
+The evaluation module verifies:
+
+- ✅ Notification routing accuracy (`notify`, `digest`, `mute`)
+- ✅ Message type classification
+- ✅ Confidence score calibration
+- ✅ Output schema validation
+- ✅ Prediction completeness
+
+Run the evaluation after generating predictions:
+
+```bash
+python code/evaluation/evaluator.py
+```
+
+The evaluation workflow helps ensure that the generated `output.csv` follows the expected schema and produces consistent routing decisions before submission.
+
+--- 
 
 ## Output Format
 
